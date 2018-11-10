@@ -1,0 +1,27 @@
+<% String a=request.getParameter("t1");
+String b=request.getParameter("t2");
+int x=Integer.parseInt(a);
+int y=Integer.parseInt(b);
+String c=request.getParameter("b1");
+if(c.equals("add"))
+{
+	int z=x+y;
+	out.println(z);
+}
+if(c.equals("sub"))
+{
+	int z=x-y;
+	out.println(z);
+}
+
+if(c.equals("mul"))
+{
+	int z=x*y;
+	out.println(z);
+}
+if(c.equals("div"))
+{
+	int z=x/y;
+	out.println(z);
+}
+%>

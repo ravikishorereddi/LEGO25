@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor=blue>
+<form action=cal.jsp>
+Enter a No<input type=text name=t1 size=20><br>
+Enter a No<input type=text name=t2 size=20><br>
+<input type=submit value=add name=b1>
+<input type=submit value=sub name=b1>
+<input type=submit value=mul name=b1>
+<input type=submit value=div name=b1>
+</form>
+</body>
+</html>
